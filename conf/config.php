@@ -38,6 +38,9 @@ $CONFIG['showmem'] = false;
 $CONFIG['showtime'] = false;
 
 $CONFIG['term'] = array(
+	'15min'  => 15 * 60,
+	'30min'  => 30 * 60,
+	'1hour'  => 3600,
 	'2hour'	 => 3600 * 2,
 	'8hour'	 => 3600 * 8,
 	'day'	 => 86400,

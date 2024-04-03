@@ -1,0 +1,7 @@
+services:
+  cgp:
+    image: ptorbatii/cgp
+    volumes:
+      - /var/lib/collectd/:/var/lib/collectd/
+    ports:
+      - 8080:80

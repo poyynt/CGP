@@ -6,6 +6,13 @@ RRD collected by [collectd][collectd], written in the PHP language.
 The latest version of CGP can be found on https://github.com/pommi/CGP. When you
 have improvements or fixes, do not hesitate to send a pull request!
 
+Docker
+------------
+To use in docker, pull and run `ptorbatii/cgp`. Mount the rrd directory at `/var/lib/collectd/`. The default port is 80.
+Example usage:
+`docker run -v /var/lib/collectd/:/var/lib/collectd/ -p 8080:80 ptorbatii/cgp:latest`
+A docker compose file is also available.
+
 Requirements
 ------------
 CGP has the following hard requirements:
